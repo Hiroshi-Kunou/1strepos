@@ -1,0 +1,277 @@
+
+body {
+	padding: 20px;
+	color: #fff;
+	font-size: 12px;
+	font-family: 小塚明朝 Pro;
+	line-height: 18px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+li{
+	display: block;
+}
+
+.dex {
+	position: fixed;
+	top: 140px;
+	right: 100px;
+	width: 430px;
+	height: 140px;
+	background-color: rgba(50,50,50,0.8);
+	padding: 30px;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+/*メニュー*/
+
+.title{
+	float: left;
+	padding-left: 5px;
+	margin-top: 0px;
+	width: 120px;
+	height: 40px;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 1.5px;
+}
+
+.menu{
+	z-index: 5;
+	top: 0px;
+	right: 0px;
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.menu li {
+	text-align: center;
+	vertical-align:middle;
+	border-radius: ,px;
+	float: left;
+	width: 25%;
+	height: 30px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	background-color: #444;
+}
+
+.menu li:hover {
+	background-color: #bbb;
+}
+
+.rightmenu {
+	z-index:4;
+	position: absolute;
+	margin: 10px;
+	right:10px;
+	top:60px;
+	width:450px;
+	height:100%;
+}
+
+/*インフォメーション*/
+
+.infopage{
+	z-index: 5;
+	float: left;
+	position: relative;
+	margin-top:70px;
+	height: 90%;
+	background-color: #111;
+}
+
+.information{
+	position: absolute;
+	bottom: 10px;
+	right: 100px;
+	width: 460px;
+	color: #222;
+	font-size: 10px;
+	line-height: 16px;
+	font-family: 小塚明朝 Pro;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.title2{
+	font-size: 10px;
+	line-height: 14px;
+	letter-spacing: 1px;
+	width: 100%;
+	height: 15px;
+	color: #000;
+	border-bottom: solid 1px #fff;
+	text-align: center;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.infobox{
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	font-size: 8px;
+	line-height: 12px;
+}
+.date{
+	float: left;
+	width: 20%;
+}
+
+.text{
+	float: left;
+}
+
+
+
+/*フッター*/
+
+.footer{
+	z-index: 5000;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 10px;
+	background-color: #fff;
+	text-align: left;
+	font-size: 8px;
+	color: #000;
+	line-height: 8px;
+}
+
+/*ギャラリー*/
+
+.galpage{
+	float: left;
+	position: relative;
+	overflow: scroll;
+	top:0px;
+	left: 0px;
+	height: 100%;
+	background-color: #eee;
+}
+
+.galnav ul　{
+	list-style: none;
+}
+
+.galnav li {
+	width: 100%;
+	height: 20px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	background-color: #ccc;
+}
+
+.active{
+	background-color: #666;
+}
+
+.photo{
+	position: relative;
+	float:left;
+	left:20%;
+	margin-top:70px;
+	width: 70%;
+	height: 90%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: content;
+}
+
+.photo p:nth-child(2){
+	color:#000;
+	position: relative;
+	left:-20%;
+	margin-top:70px;
+	width: 20%;
+	height: 20%;
+	background-color: #fff;
+}
+
+.photo img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.photo2{
+	position: relative;
+	left:20%;
+	margin-top:70px;
+	width: 70%;a
+	height: 90%;
+	background-image: url("../image/0000.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: content;
+}
+
+.caption{
+	color:#000;
+	position: absolute;
+	left:-20%;
+	margin-top:70px;
+	width: 20%;
+	height: 20%;
+	background-color: #fff;
+}
+
+
+/*インスタグラム*/
+
+#instafeed{
+	margin: 10px;
+	padding: 10px;
+	padding-top: 0px;
+	top: 100%;
+	position: absolute;
+	width: 200px;
+	font-size: 10px;
+	line-height: 15px;
+	background-color: rgba(50,50,50,0.8);
+}
+
+#instafeed img{
+	width: 200px;
+	height:　200px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.backimg{
+	z-index: 0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+}
+
+.item{
+	overflow: scroll;
+	float: left;
+	position: relative;
+	top:0px;
+	left: 0px;
+	height: 100%;
+	background-image: url("../image/0000.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
