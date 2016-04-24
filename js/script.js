@@ -15,7 +15,7 @@ var imgboxW=$(".photo").width;
 var i=$(".backimg").css("left");
 var md;
 var mu;
-/*
+/*z
 window.onload=function(){
 alert(imgW);
 }
