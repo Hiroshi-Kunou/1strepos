@@ -183,10 +183,11 @@ li{
 .photo{
 	position: relative;
 	float:left;
-	left:20%;
-	margin-top:70px;
-	width: 70%;
+	left:5%;
+	margin-top:10%;
+	width: 90%;
 	height: 90%;
+	background-color: green;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: content;
@@ -226,7 +227,6 @@ li{
 .caption{
 	color:#000;
 	position: absolute;
-	left:-20%;
 	margin-top:70px;
 	width: 20%;
 	height: 20%;
