@@ -1,9 +1,9 @@
 .title{
+	color: #fff;
 	text-align: center;
-}
-
-nav{
-	width:100%;
+	font-size: 14px;
+	letter-spacing: 3px;
+	padding:12px 0;
 	background-color: #222;
 }
 
@@ -11,7 +11,8 @@ nav ul li{
 	text-align: center;
 	width:25%;
 	float: left;
-	padding:12px 0
+	padding:12px 0;
+	background-color: #bbb;
 }
 nav ul li a{
 	display: block;
