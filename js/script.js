@@ -10,6 +10,7 @@ $(function(){
 });
 */
 
+/*
 var userFeed = new Instafeed({
   get: 'user',
   userId: 2132697841,
@@ -17,6 +18,7 @@ var userFeed = new Instafeed({
   template: '<a href="{{link}}"><img src="{{image}}" /></a><br>{{caption}}<br>'
 });
   userFeed.run();
+*/
 
 var Window = innerWidth;
 
@@ -30,7 +32,7 @@ $(function(){
 		$(".btn-menu").css("display","none");
 		$(".top-bgcolor").css("display","block");
 		if(innerWidth<1000){
-			$("nav").css("display","block");			
+			$("nav").css("display","block");
 		};
 	});
 });

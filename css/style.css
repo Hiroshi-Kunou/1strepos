@@ -13,7 +13,7 @@
 	Roboto,
 	"游ゴシック",
 	"Yu Gothic",
-	"游ゴシック体", 
+	"游ゴシック体",
 	"YuGothic",
 	"ヒラギノ角ゴ Pro W3",
 	"Hiragino Kaku Gothic Pro",
@@ -45,7 +45,7 @@ a{
 }
 
 .clearfix:after {
-	content: "."; 
+	content: ".";
 	display: block;
 	clear: both;
 	height: 0;
@@ -211,7 +211,7 @@ footer{
 	background-color: black;
 	position: fixed;
 	right: 0px;
-	border-bottom-left-radius: 8px; 
+	border-bottom-left-radius: 8px;
 }
 
 .top-bgcolor{
@@ -301,6 +301,22 @@ footer{
 	float: left;
 }
 
+.profile-item{
+	display: block;
+	font-size: 12px;
+	color: white;
+	width: 94vw;
+	height: 20vh;
+	margin: 1vw;
+	padding: 1vw;
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	float: left;
+}
+
+
 .exhibition-item{
 	display: block;
 	font-size: 12px;
@@ -335,7 +351,7 @@ footer{
 .btn-sns{
 	z-index: 100;
 	float: left;
-	width: 70px;
+	width: 50px;
 	height: 50px;
 	display: block;
 	background-color: rgba(100,100,100, 0.5);
@@ -363,6 +379,11 @@ footer{
 /*******	768px	*******/
 
 	@media all and (min-width:768px){
+		.profile-item{
+			width: 40vw;
+			height: 50vh;
+
+		}
 
 header{
 	width: 100vw;
@@ -450,7 +471,7 @@ nav li img{
 }
 
 .info-date{
-	width: 100%;	
+	width: 100%;
 }
 
 .info-text{
@@ -508,7 +529,7 @@ nav li a{
 }
 
 nav li a:hover{
-	background-color: rgba(100,100,100,0.25);	
+	background-color: rgba(100,100,100,0.25);
 }
 
 nav li img{
