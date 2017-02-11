@@ -136,9 +136,14 @@ h2{
 	margin: 0;
 }
 
+h3{
+	font-size: 15px;
+	line-height: 36px;
+}
+
 p{
 	font-size: 12px;
-	line-height: 18px;
+	line-height: 20px;
 }
 
 nav{
